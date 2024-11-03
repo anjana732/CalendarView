@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calendar View</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="calendar-container">
+    <div class="calendar-header">
+      <button onclick="prevMonth()">❮</button>
+      <span id="calendar-month-year">November, 2024</span>
+      <button onclick="nextMonth()">❯</button>
+    </div>
+    <div class="calendar">
+      <div class="calendar-days">
+        <div>Sunday</div>
+        <div>Monday</div>
+        <div>Tuesday</div>
+        <div>Wednesday</div>
+        <div>Thursday</div>
+        <div>Friday</div>
+        <div>Saturday</div>
+      </div>
+      <div class="calendar-dates" id="calendar-dates"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
